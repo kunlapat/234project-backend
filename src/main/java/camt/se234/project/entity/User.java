@@ -18,8 +18,10 @@ import javax.persistence.Id;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    Long id;
+    int id;
     String username;
     String password;
     String role;
+
+
 }
