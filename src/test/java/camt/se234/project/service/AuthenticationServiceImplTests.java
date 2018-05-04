@@ -31,14 +31,15 @@ public class AuthenticationServiceImplTests {
 
     @Test
     public void testAuthentication(){
-        List<User> mockUsers = new ArrayList<>();
-        mockUsers.add(new User(1,"mock01","aa","admin"));
-        mockUsers.add(new User(2,"mock02","bb","user"));
-        mockUsers.add(new User(3,"mock03","cc","user"));
-        when(userDao.getUser(String )).thenReturn(mockUsers);
+        when(userDao.getUser("mock01","aa")).thenReturn(new User(592115001,"mock01","aa","admin"));
+        when(userDao.getUser("mock02","bb")).thenReturn(new User(592115002,"mock02","bb","user"));
+        when(userDao.getUser("mock03","cc")).thenReturn(new User(592115003,"mock03","cc","user"));
+        when(userDao.getUser("mock04","dd")).thenReturn(new User(592115004,"mock04","dd","user"));
 
-        assertThat(userService.authenticate("mock01","aa"),is(new User(1,"mock01","aa","admin")));
-
+        assertThat(userDao.getUser("mock01","aa"),is(new User(592115001,"mock01","aa","admin")));
+        assertThat(userDao.getUser("mock02","bb"),is(new User(592115002,"mock02","bb","user")));
+        assertThat(userDao.getUser("mock03","cc"),is(new User(592115003,"mock03","cc","user")));
+        assertThat(userDao.getUser("mock04","dd"),is(new User(592115004,"mock04","dd","user")));
 
     }
 
