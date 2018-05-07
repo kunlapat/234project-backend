@@ -10,5 +10,5 @@ services:
       - "7071:80"
     volumes:
       - type: bind
-        source: ./xxx
+        source: /usr/share/nginx/html/assets
         target: /setting
