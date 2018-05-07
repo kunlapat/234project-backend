@@ -11,11 +11,16 @@ import java.util.stream.StreamSupport;
 
 @Repository
 public class ProductDaoImpl implements ProductDao{
+    ProductDao productDao;
     @Autowired
     ProductRepository productRepository;
     @Override
     public List<Product> getProducts() {
         return StreamSupport.stream(productRepository.findAll().spliterator(),false)
                 .collect(Collectors.toList());
+    }
+
+    public void setUser(ProductDao productDao) {
+        this.productDao = productDao;
     }
 }
