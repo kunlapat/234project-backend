@@ -8,3 +8,7 @@ services:
     image: dto80/project234-frontend:latest
     ports:
       - "7071:80"
+    volumes:
+      - type: bind
+        source: /usr/share/nginx/html/assets
+        target: /setting
