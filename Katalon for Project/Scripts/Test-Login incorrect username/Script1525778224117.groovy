@@ -24,13 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.215.216.185:7071/')
 
-WebUI.setText(findTestObject('Objects-Login incorrect username/Page_ProjectBackend/input_username'), 'test')
+WebUI.setText(findTestObject('Objects-Login incorrect/Page_ProjectBackend/input_username'), 'test')
 
-WebUI.setText(findTestObject('Objects-Login incorrect username/Page_ProjectBackend/input_password'), 'test')
+WebUI.setText(findTestObject('Objects-Login incorrect/Page_ProjectBackend/input_password'), 'test')
 
-WebUI.click(findTestObject('Objects-Login incorrect username/Page_ProjectBackend/button_Login'))
+WebUI.click(findTestObject('Objects-Login incorrect/Page_ProjectBackend/button_Login'))
 
-WebUI.click(findTestObject('Objects-Login incorrect username/Page_ProjectBackend/label_Usernamepassword is inco'))
+WebUI.verifyElementText(findTestObject('Objects-Login incorrect/Page_ProjectBackend/label_Usernamepassword is inco'), 'Username/password is incorrect')
 
 WebUI.closeBrowser()
 
