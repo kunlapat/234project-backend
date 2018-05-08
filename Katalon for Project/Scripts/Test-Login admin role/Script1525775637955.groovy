@@ -18,4 +18,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://34.215.216.185:7071')
+
+WebUI.setText(findTestObject('Objects-Test login admin role/Page_ProjectBackend/input_username'), 'admin')
+
+WebUI.setText(findTestObject('Objects-Test login admin role/Page_ProjectBackend/input_password'), 'admin')
+
+WebUI.click(findTestObject('Objects-Test login admin role/Page_ProjectBackend/button_Login'))
+
+WebUI.verifyElementText(findTestObject('Objects-Test login admin role/Page_ProjectBackend/a_Products'), 'Products')
+
+WebUI.verifyElementText(findTestObject('Objects-Test login admin role/Page_ProjectBackend/a_Total Transaction'), 'Total Transaction')
+
+WebUI.closeBrowser()
 
