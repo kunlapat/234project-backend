@@ -22,17 +22,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://34.215.216.185:7071')
+WebUI.navigateToUrl('http://34.215.216.185:7071/')
 
-WebUI.setText(findTestObject('Objects-Test login admin role/Page_ProjectBackend/input_username'), username)
+WebUI.setText(findTestObject('Objects-Login incorrect username/Page_ProjectBackend/input_username'), 'test')
 
-WebUI.setText(findTestObject('Objects-Test login admin role/Page_ProjectBackend/input_password'), password)
+WebUI.setText(findTestObject('Objects-Login incorrect username/Page_ProjectBackend/input_password'), 'test')
 
-WebUI.click(findTestObject('Objects-Test login admin role/Page_ProjectBackend/button_Login'))
+WebUI.click(findTestObject('Objects-Login incorrect username/Page_ProjectBackend/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Objects-Test login admin role/Page_ProjectBackend/a_Products'), 'Products')
-
-WebUI.verifyElementText(findTestObject('Objects-Test login admin role/Page_ProjectBackend/a_Total Transaction'), 'Total Transaction')
+WebUI.click(findTestObject('Objects-Login incorrect username/Page_ProjectBackend/label_Usernamepassword is inco'))
 
 WebUI.closeBrowser()
 
