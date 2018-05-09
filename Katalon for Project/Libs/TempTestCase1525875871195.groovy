@@ -13,13 +13,13 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\RISKYC~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Test-show available products\\20180509_012605\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\amnesia\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Test-Add button\\20180509_212426\\execution.properties')
 
 TestCaseMain.beforeStart()
 try {
     
-	    TestCaseMain.runTestCase('Test Cases/Test-show available products', new TestCaseBinding('Test Cases/Test-show available products', [:]), FailureHandling.STOP_ON_FAILURE )
+	    TestCaseMain.runTestCase('Test Cases/Test-Add button', new TestCaseBinding('Test Cases/Test-Add button', [:]), FailureHandling.STOP_ON_FAILURE )
     
 } catch (Exception e) {
-    TestCaseMain.logError(e, 'Test Cases/Test-show available products')
+    TestCaseMain.logError(e, 'Test Cases/Test-Add button')
 }
