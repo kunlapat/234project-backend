@@ -24,11 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.215.216.185:7071')
 
-WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_username'), 'user')
+WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_username'), user)
 
-WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_password'), 'user')
+WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_password'), pass)
 
 WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/button_Login'))
+
+WebUI.waitForElementNotPresent(findTestObject('Objects-Cart list/Page_ProjectBackend/button_add to cart 1'), 0)
 
 WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/button_add to cart 1'))
 
@@ -42,33 +44,33 @@ WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/button_add to 
 
 WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/menu_cart'))
 
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productName 1'))
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productName 1'), 'Garden')
 
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productPrice 1'))
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productPrice 1'), '20,000 THB')
 
 WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_amount 1'), amount)
 
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productName 2'))
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productName 2'), 'Banana')
 
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productPrice 2'))
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productPrice 2'), '150 THB')
 
 WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_amount 2'), amount)
 
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productName 3'))
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productName 3'), 'Orange')
 
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productPrice 3'))
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productPrice 3'), '280 THB')
 
 WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_amount 3'), amount)
 
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productName 4'))
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productName 4'), 'Papaya')
 
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productPrice 4'))
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productPrice 4'), '12 THB')
 
 WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_amount 4'), amount)
 
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productName 5'))
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productName 5'), 'Rambutan')
 
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productPrice 5'))
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_productPrice 5'), '20 THB')
 
 WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_amount 5'), amount)
 

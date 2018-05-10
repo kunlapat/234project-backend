@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuit-Cart list with changing amount" time="117" tests="2" failures="2" errors="0">
+   <testsuite name="TestSuit-Cart list with changing amount" tests="2" failures="2" errors="0" time="117" timestamp="2018-05-10 14:21:23" hostname="amnesia - DESKTOP-JOTRSDM" id="Test Suites/TestSuit-Cart list with changing amount">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\592115005\\ASD\\234project-backend\\Katalon for Project\\Reports\\TestSuit-Cart list with changing amount\\20180510_142117"/>
+         <property name="logFiles" value="E:\\592115005\\ASD\\234project-backend\\Katalon for Project\\Reports\\TestSuit-Cart list with changing amount\\20180510_142117\\execution0.log"/>
+         <property name="attachments" value="E:\\592115005\\ASD\\234project-backend\\Katalon for Project\\Reports\\TestSuit-Cart list with changing amount\\20180510_142117\\1525936960310.png, E:\\592115005\\ASD\\234project-backend\\Katalon for Project\\Reports\\TestSuit-Cart list with changing amount\\20180510_142117\\1525937001075.png"/>
+         <property name="hostName" value="amnesia - DESKTOP-JOTRSDM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="c6210080-a885-452a-a27d-e02043d9b6f2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test-Cart list" classname="Test Cases/Test-Cart list" status="PASSED">
+         <system-out><![CDATA[2018-05-10 14:21:24 - [TEST_CASE][PASSED] - Test Cases/Test-Cart list: Test Cases/Test-Cart list
+
+2018-05-10 14:21:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 14:21:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 14:21:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 14:21:35 - [MESSAGE][PASSED] - Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 14:21:35 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_username'
+
+2018-05-10 14:21:36 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_username'
+
+2018-05-10 14:21:36 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_password'
+
+2018-05-10 14:21:36 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_password'
+
+2018-05-10 14:21:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 14:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 14:21:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' is clicked on
+
+2018-05-10 14:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' is clicked on
+
+2018-05-10 14:21:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 2' is clicked on
+
+2018-05-10 14:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 2' is clicked on
+
+2018-05-10 14:21:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 3' is clicked on
+
+2018-05-10 14:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 3' is clicked on
+
+2018-05-10 14:21:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 4' is clicked on
+
+2018-05-10 14:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 4' is clicked on
+
+2018-05-10 14:21:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 5' is clicked on
+
+2018-05-10 14:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 5' is clicked on
+
+2018-05-10 14:21:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/menu_cart' is clicked on
+
+2018-05-10 14:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/menu_cart' is clicked on
+
+2018-05-10 14:21:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 1' is clicked on
+
+2018-05-10 14:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 1' is clicked on
+
+2018-05-10 14:21:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 1' is clicked on
+
+2018-05-10 14:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 1' is clicked on
+
+2018-05-10 14:21:40 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 1'
+
+2018-05-10 14:21:40 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 1'
+
+2018-05-10 14:21:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 2' is clicked on
+
+2018-05-10 14:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 2' is clicked on
+
+2018-05-10 14:21:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 2' is clicked on
+
+2018-05-10 14:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 2' is clicked on
+
+2018-05-10 14:21:40 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 2'
+
+2018-05-10 14:21:40 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 2'
+
+2018-05-10 14:21:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 3' is clicked on
+
+2018-05-10 14:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 3' is clicked on
+
+2018-05-10 14:21:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 3' is clicked on
+
+2018-05-10 14:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 3' is clicked on
+
+2018-05-10 14:21:41 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 3'
+
+2018-05-10 14:21:41 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 3'
+
+2018-05-10 14:21:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 4' is clicked on
+
+2018-05-10 14:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 4' is clicked on
+
+2018-05-10 14:21:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 4' is clicked on
+
+2018-05-10 14:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 4' is clicked on
+
+2018-05-10 14:21:41 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 4'
+
+2018-05-10 14:21:41 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 4'
+
+2018-05-10 14:21:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 5' is clicked on
+
+2018-05-10 14:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 5' is clicked on
+
+2018-05-10 14:21:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 5' is clicked on
+
+2018-05-10 14:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 5' is clicked on
+
+2018-05-10 14:21:42 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 5'
+
+2018-05-10 14:21:42 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 5'
+
+2018-05-10 14:21:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Objects-Cart list/Page_ProjectBackend/p_Total price' are matched.
+
+2018-05-10 14:21:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Objects-Cart list/Page_ProjectBackend/p_Total price' are matched.
+
+2018-05-10 14:21:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 14:21:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Cart list" classname="Test Cases/Test-Cart list" status="PASSED">
+         <system-out><![CDATA[2018-05-10 14:21:42 - [TEST_CASE][PASSED] - Test Cases/Test-Cart list: Test Cases/Test-Cart list
+
+2018-05-10 14:21:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 14:21:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 14:21:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 14:21:52 - [MESSAGE][PASSED] - Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 14:21:52 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_username'
+
+2018-05-10 14:21:52 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_username'
+
+2018-05-10 14:21:52 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_password'
+
+2018-05-10 14:21:52 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_password'
+
+2018-05-10 14:21:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 14:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 14:21:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' is clicked on
+
+2018-05-10 14:21:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' is clicked on
+
+2018-05-10 14:21:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 2' is clicked on
+
+2018-05-10 14:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 2' is clicked on
+
+2018-05-10 14:21:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 3' is clicked on
+
+2018-05-10 14:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 3' is clicked on
+
+2018-05-10 14:21:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 4' is clicked on
+
+2018-05-10 14:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 4' is clicked on
+
+2018-05-10 14:21:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 5' is clicked on
+
+2018-05-10 14:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 5' is clicked on
+
+2018-05-10 14:21:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/menu_cart' is clicked on
+
+2018-05-10 14:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/menu_cart' is clicked on
+
+2018-05-10 14:21:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 1' is clicked on
+
+2018-05-10 14:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 1' is clicked on
+
+2018-05-10 14:21:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 1' is clicked on
+
+2018-05-10 14:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 1' is clicked on
+
+2018-05-10 14:21:56 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 1'
+
+2018-05-10 14:21:56 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 1'
+
+2018-05-10 14:21:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 2' is clicked on
+
+2018-05-10 14:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 2' is clicked on
+
+2018-05-10 14:21:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 2' is clicked on
+
+2018-05-10 14:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 2' is clicked on
+
+2018-05-10 14:21:57 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 2'
+
+2018-05-10 14:21:57 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 2'
+
+2018-05-10 14:21:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 3' is clicked on
+
+2018-05-10 14:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 3' is clicked on
+
+2018-05-10 14:21:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 3' is clicked on
+
+2018-05-10 14:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 3' is clicked on
+
+2018-05-10 14:21:57 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 3'
+
+2018-05-10 14:21:57 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 3'
+
+2018-05-10 14:21:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 4' is clicked on
+
+2018-05-10 14:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 4' is clicked on
+
+2018-05-10 14:21:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 4' is clicked on
+
+2018-05-10 14:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 4' is clicked on
+
+2018-05-10 14:21:58 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 4'
+
+2018-05-10 14:21:58 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 4'
+
+2018-05-10 14:21:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 5' is clicked on
+
+2018-05-10 14:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productName 5' is clicked on
+
+2018-05-10 14:21:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 5' is clicked on
+
+2018-05-10 14:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/td_productPrice 5' is clicked on
+
+2018-05-10 14:21:58 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 5'
+
+2018-05-10 14:21:58 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_amount 5'
+
+2018-05-10 14:21:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Objects-Cart list/Page_ProjectBackend/p_Total price' are matched.
+
+2018-05-10 14:21:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Objects-Cart list/Page_ProjectBackend/p_Total price' are matched.
+
+2018-05-10 14:21:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 14:21:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Cart list" classname="Test Cases/Test-Cart list" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)"/>
+         <system-out><![CDATA[2018-05-10 14:21:58 - [TEST_CASE][FAILED] - Test Cases/Test-Cart list: Test Cases/Test-Cart list FAILED because (of) Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)
+
+2018-05-10 14:21:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 14:22:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 14:22:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 14:22:09 - [MESSAGE][PASSED] - Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 14:22:09 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_username'
+
+2018-05-10 14:22:09 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_username'
+
+2018-05-10 14:22:09 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_password'
+
+2018-05-10 14:22:09 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_password'
+
+2018-05-10 14:22:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 14:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 14:22:09 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)
+
+2018-05-10 14:22:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)
+[[ATTACHMENT|E:\\592115005\\ASD\\234project-backend\\Katalon for Project\\Reports\\TestSuit-Cart list with changing amount\\20180510_142117\\1525936960310.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 14:21:58 - [TEST_CASE][FAILED] - Test Cases/Test-Cart list: Test Cases/Test-Cart list FAILED because (of) Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Cart list" classname="Test Cases/Test-Cart list" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)"/>
+         <system-out><![CDATA[2018-05-10 14:22:40 - [TEST_CASE][FAILED] - Test Cases/Test-Cart list: Test Cases/Test-Cart list FAILED because (of) Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)
+
+2018-05-10 14:22:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 14:22:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-10 14:22:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 14:22:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 14:22:50 - [MESSAGE][PASSED] - Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 14:22:50 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_username'
+
+2018-05-10 14:22:50 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_username'
+
+2018-05-10 14:22:50 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_password'
+
+2018-05-10 14:22:50 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/input_password'
+
+2018-05-10 14:22:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 14:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 14:22:50 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)
+
+2018-05-10 14:23:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)
+[[ATTACHMENT|E:\\592115005\\ASD\\234project-backend\\Katalon for Project\\Reports\\TestSuit-Cart list with changing amount\\20180510_142117\\1525937001075.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 14:22:40 - [TEST_CASE][FAILED] - Test Cases/Test-Cart list: Test Cases/Test-Cart list FAILED because (of) Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 14:21:23 - [TEST_SUITE][FAILED] - TestSuit-Cart list with changing amount: Test Cases/Test-Cart list FAILED because (of) Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-10 14:21:23 - [TEST_SUITE][FAILED] - TestSuit-Cart list with changing amount: Test Cases/Test-Cart list FAILED because (of) Unable to click on object 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Objects-Cart list/Page_ProjectBackend/button_add to cart 1' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)]]></system-err>
+   </testsuite>
+</testsuites>

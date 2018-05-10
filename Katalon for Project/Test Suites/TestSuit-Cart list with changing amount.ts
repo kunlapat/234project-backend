@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TestSuit-Cart list with changing amount</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-10T14:44:03</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>2f5a0682-26de-4123-acb5-34823aab6d51</testSuiteGuid>
+   <testCaseLink>
+      <guid>9734e782-e182-41ce-98ea-377eea9654c1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test-Cart list</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3f628468-5df9-4ec0-ba43-c7a90b97e7e9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data-product amount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3f628468-5df9-4ec0-ba43-c7a90b97e7e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>amount</value>
+         <variableId>7483a27a-e487-43ba-be61-096647968d79</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f628468-5df9-4ec0-ba43-c7a90b97e7e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>totalPrice</value>
+         <variableId>e51e4258-c31a-41ee-ac83-9e878dc89082</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f628468-5df9-4ec0-ba43-c7a90b97e7e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>f4f4ecc2-9575-4a88-8e3d-02fa56b2ddf7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f628468-5df9-4ec0-ba43-c7a90b97e7e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>5c9dabdf-d71a-4e23-afde-c35b7bd9de98</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

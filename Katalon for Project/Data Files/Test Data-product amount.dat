@@ -8,10 +8,10 @@
    <dataFileGUID>b1fda5b9-1c5b-49dc-bbae-ce42676b05c7</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>2 Total+price%3A+40%2C924+THB</data>
-   <data>3 Total+price%3A+61%2C386+THB</data>
-   <data>4 Total+price%3A+81%2C848+THB</data>
-   <data>5 Total+price%3A+102%2C310+THB</data>
+   <data>2 Total+price%3A+40%2C924+THB user user</data>
+   <data>3 Total+price%3A+61%2C386+THB hello hello</data>
+   <data>4 Total+price%3A+81%2C848+THB user user</data>
+   <data>5 Total+price%3A+102%2C310+THB hello hello</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>amount</name>
@@ -20,6 +20,16 @@
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>totalPrice</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>username</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>password</name>
       <size>4</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

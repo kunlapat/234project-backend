@@ -19,4 +19,18 @@
       <masked>false</masked>
       <name>totalPrice</name>
    </variable>
+   <variable>
+      <defaultValue>'user'</defaultValue>
+      <description></description>
+      <id>f4f4ecc2-9575-4a88-8e3d-02fa56b2ddf7</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'user'</defaultValue>
+      <description></description>
+      <id>5c9dabdf-d71a-4e23-afde-c35b7bd9de98</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
 </TestCaseEntity>
