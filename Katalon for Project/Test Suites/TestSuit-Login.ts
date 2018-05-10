@@ -10,49 +10,4 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>8feaee51-ae65-4ea3-b32f-97d7c0128f45</testSuiteGuid>
-   <testCaseLink>
-      <guid>65a96f6e-b2c1-4e63-ac52-26fb018b2b2b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test-Login user role</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>038a0800-3a3a-4a78-9011-899dc932592f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3da57f81-1203-4635-b070-5ff393c0387f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d022b70f-caf5-44dd-9aca-607542575edb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test-Login admin role</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>5321511b-5bc1-4e57-b89e-bffd8596b234</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Test Data-Login</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>5321511b-5bc1-4e57-b89e-bffd8596b234</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
-         <variableId>c44b06cc-02e2-4471-981d-0ae282ab3c4f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>5321511b-5bc1-4e57-b89e-bffd8596b234</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>a27742db-3376-4693-8861-64299262efd2</variableId>
-      </variableLink>
-   </testCaseLink>
 </TestSuiteEntity>

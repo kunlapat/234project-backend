@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test-Cart list</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90777d8a-e5f2-4a3a-ae3f-dbc60412699b</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>7483a27a-e487-43ba-be61-096647968d79</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'Total price: 20,462 THB'</defaultValue>
+      <description></description>
+      <id>e51e4258-c31a-41ee-ac83-9e878dc89082</id>
+      <masked>false</masked>
+      <name>totalPrice</name>
+   </variable>
+</TestCaseEntity>
