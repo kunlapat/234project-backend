@@ -76,5 +76,9 @@ WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_amount
 
 WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/p_Total price'), totalPrice)
 
+WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/button_confirm'))
+
+WebUI.acceptAlert()
+
 WebUI.closeBrowser()
 
