@@ -24,6 +24,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.215.216.185:7071')
 
+WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_username'), 'admin')
+
+WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_password'), 'admin')
+
+WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/button_Login'))
+
+WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/menu_totalTransaction'))
+
+WebUI.click(findTestObject('Objects-Login success/Page_ProjectBackend/button_Logout'))
+
 WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_username'), user)
 
 WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_password'), pass)
@@ -80,7 +90,15 @@ WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/button_confirm
 
 WebUI.acceptAlert()
 
-WebUI.click(findTestObject(null))
+WebUI.click(findTestObject('Objects-Login success/Page_ProjectBackend/button_Logout'))
+
+WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_username'), 'admin')
+
+WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_password'), 'admin')
+
+WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/button_Login'))
+
+WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/menu_totalTransaction'))
 
 WebUI.closeBrowser()
 

@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test-Total Transaction</name>
+   <name>Test-Total transaction</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>df7e2882-8cfe-4edd-acc2-2c6d7433e49d</testCaseGuid>
+   <testCaseGuid>c056971e-df64-4a82-9ef8-c33a9d2e27a5</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>813b8a80-16dd-4b1e-9c98-9b03707888cd</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'Total price: 20,462 THB'</defaultValue>
+      <description></description>
+      <id>740accf0-2f46-44dc-b7d5-7917ba5c78ab</id>
+      <masked>false</masked>
+      <name>totalPrice</name>
+   </variable>
+   <variable>
+      <defaultValue>'user'</defaultValue>
+      <description></description>
+      <id>d19eacfc-0c52-463e-b88c-ee829949548d</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'user'</defaultValue>
+      <description></description>
+      <id>1a75d2fc-ab9c-44c5-a266-3677d2b8800e</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
 </TestCaseEntity>

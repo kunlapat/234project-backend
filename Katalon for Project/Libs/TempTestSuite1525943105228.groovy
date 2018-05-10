@@ -27,7 +27,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("E:\\592115005\\ASD\\234project-backend\\Katalon for Project\\Reports\\TestSuit-Cart list with changing amount\\20180510_142950\\execution.properties")
+RunConfiguration.setExecutionSettingFile("E:\\592115005\\ASD\\234project-backend\\Katalon for Project\\Reports\\TestSuit-Cart list with changing amount\\20180510_160500\\execution.properties")
 
 TestCaseMain.beforeStart()
 
