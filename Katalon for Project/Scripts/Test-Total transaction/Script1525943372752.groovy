@@ -24,16 +24,6 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.215.216.185:7071')
 
-WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_username'), 'admin')
-
-WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_password'), 'admin')
-
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/button_Login'))
-
-WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/menu_totalTransaction'))
-
-WebUI.click(findTestObject('Objects-Login success/Page_ProjectBackend/button_Logout'))
-
 WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_username'), user)
 
 WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_password'), pass)
@@ -99,6 +89,14 @@ WebUI.setText(findTestObject('Objects-Cart list/Page_ProjectBackend/input_passwo
 WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/button_Login'))
 
 WebUI.click(findTestObject('Objects-Cart list/Page_ProjectBackend/menu_totalTransaction'))
+
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_tId1'), '1')
+
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_tName1'), 'Garden, Papaya')
+
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_tId2'), '2')
+
+WebUI.verifyElementText(findTestObject('Objects-Cart list/Page_ProjectBackend/td_tName2'), 'Banana, Garden, Banana, Rambutan')
 
 WebUI.closeBrowser()
 
