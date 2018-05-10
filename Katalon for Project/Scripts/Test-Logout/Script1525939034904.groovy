@@ -30,7 +30,9 @@ WebUI.setText(findTestObject('Objects-Login success/Page_ProjectBackend/input_pa
 
 WebUI.click(findTestObject('Objects-Login success/Page_ProjectBackend/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Objects-Login success/Page_ProjectBackend/button_Logout'), 'Logout')
+WebUI.click(findTestObject('Objects-Login success/Page_ProjectBackend/button_Logout'))
+
+WebUI.verifyElementText(findTestObject('Objects-Test show login page/Page_ProjectBackend/h2_Login'), 'Login')
 
 WebUI.closeBrowser()
 

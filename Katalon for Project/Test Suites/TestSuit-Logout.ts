@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TestSuit-Login</name>
+   <name>TestSuit-Logout</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-10T14:55:50</lastRun>
+   <lastRun>2018-05-10T15:00:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>8feaee51-ae65-4ea3-b32f-97d7c0128f45</testSuiteGuid>
+   <testSuiteGuid>0b6093aa-0842-49a0-a436-e80c9ae28412</testSuiteGuid>
    <testCaseLink>
-      <guid>f3451ed9-7eb4-4a26-aecf-a59bf181b0d2</guid>
+      <guid>0a44e1fe-541c-444b-b000-295bfe6c2fec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test-Login success</testCaseId>
+      <testCaseId>Test Cases/Test-Logout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>d1d61bc6-f5e7-4c96-bca2-0f668b915690</id>
+         <id>0fc3ed80-ae45-4a9e-8f7b-d36e9239a433</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -26,16 +26,16 @@
          <testDataId>Data Files/Test Data-All users</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>d1d61bc6-f5e7-4c96-bca2-0f668b915690</testDataLinkId>
+         <testDataLinkId>0fc3ed80-ae45-4a9e-8f7b-d36e9239a433</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
-         <variableId>a395a122-b6dd-4324-8ae7-9c7ebfc2fce3</variableId>
+         <variableId>b00ca2b2-5c60-434e-ad0f-45b683529304</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d1d61bc6-f5e7-4c96-bca2-0f668b915690</testDataLinkId>
+         <testDataLinkId>0fc3ed80-ae45-4a9e-8f7b-d36e9239a433</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>d1bd9c2e-8f75-4807-9978-6669eebb407f</variableId>
+         <variableId>2f528d08-6451-4d85-a312-b541d559257e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

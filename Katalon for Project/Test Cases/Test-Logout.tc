@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test-Login success</name>
+   <name>Test-Logout</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>50a1a4ed-af71-4528-9128-75122db51e7f</testCaseGuid>
+   <testCaseGuid>b0ec9f93-cecf-4d07-9544-7509da1e09c8</testCaseGuid>
    <variable>
       <defaultValue>'user'</defaultValue>
       <description></description>
-      <id>a395a122-b6dd-4324-8ae7-9c7ebfc2fce3</id>
+      <id>b00ca2b2-5c60-434e-ad0f-45b683529304</id>
       <masked>false</masked>
       <name>user</name>
    </variable>
    <variable>
       <defaultValue>'user'</defaultValue>
       <description></description>
-      <id>d1bd9c2e-8f75-4807-9978-6669eebb407f</id>
+      <id>2f528d08-6451-4d85-a312-b541d559257e</id>
       <masked>false</masked>
       <name>pass</name>
    </variable>

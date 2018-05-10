@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuit-Logout" time="56" tests="1" failures="2" errors="0">
+   <testsuite name="TestSuit-Logout" tests="1" failures="2" errors="0" time="56" timestamp="2018-05-10 15:00:51" hostname="amnesia - DESKTOP-JOTRSDM" id="Test Suites/TestSuit-Logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\592115005\\ASD\\234project-backend\\Katalon for Project\\Reports\\TestSuit-Logout\\20180510_150045"/>
+         <property name="logFiles" value="E:\\592115005\\ASD\\234project-backend\\Katalon for Project\\Reports\\TestSuit-Logout\\20180510_150045\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="amnesia - DESKTOP-JOTRSDM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="8613aec4-0040-4c21-806a-dcdcd329bc41"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test-Logout" classname="Test Cases/Test-Logout" status="PASSED">
+         <system-out><![CDATA[2018-05-10 15:00:51 - [TEST_CASE][PASSED] - Test Cases/Test-Logout: Test Cases/Test-Logout
+
+2018-05-10 15:00:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 15:00:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 15:00:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 15:01:10 - [MESSAGE][PASSED] - Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 15:01:10 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Objects-Login success/Page_ProjectBackend/input_username'
+
+2018-05-10 15:01:10 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Objects-Login success/Page_ProjectBackend/input_username'
+
+2018-05-10 15:01:10 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Objects-Login success/Page_ProjectBackend/input_password'
+
+2018-05-10 15:01:10 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Objects-Login success/Page_ProjectBackend/input_password'
+
+2018-05-10 15:01:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 15:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 15:01:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-10 15:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-10 15:01:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Objects-Test show login page/Page_ProjectBackend/h2_Login' are matched.
+
+2018-05-10 15:01:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Objects-Test show login page/Page_ProjectBackend/h2_Login' are matched.
+
+2018-05-10 15:01:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 15:01:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Logout" classname="Test Cases/Test-Logout" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Logout' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41
+*** Element info: {Using=xpath, value=/html/body/app-root/div/app-top-banner/div/nav/div/button})"/>
+         <system-out><![CDATA[2018-05-10 15:01:13 - [TEST_CASE][FAILED] - Test Cases/Test-Logout: Test Cases/Test-Logout FAILED because (of) Unable to click on object 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Logout' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41
+*** Element info: {Using=xpath, value=/html/body/app-root/div/app-top-banner/div/nav/div/button})
+
+2018-05-10 15:01:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 15:01:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 15:01:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 15:01:33 - [MESSAGE][PASSED] - Navigate to 'http://34.215.216.185:7071' successfully
+
+2018-05-10 15:01:33 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Objects-Login success/Page_ProjectBackend/input_username'
+
+2018-05-10 15:01:33 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Objects-Login success/Page_ProjectBackend/input_username'
+
+2018-05-10 15:01:33 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Objects-Login success/Page_ProjectBackend/input_password'
+
+2018-05-10 15:01:33 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Objects-Login success/Page_ProjectBackend/input_password'
+
+2018-05-10 15:01:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 15:01:33 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Logout' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41
+*** Element info: {Using=xpath, value=/html/body/app-root/div/app-top-banner/div/nav/div/button})
+
+2018-05-10 15:01:47 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-10 15:01:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Logout' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41
+*** Element info: {Using=xpath, value=/html/body/app-root/div/app-top-banner/div/nav/div/button})]]></system-out>
+         <system-err><![CDATA[2018-05-10 15:01:13 - [TEST_CASE][FAILED] - Test Cases/Test-Logout: Test Cases/Test-Logout FAILED because (of) Unable to click on object 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Logout' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41
+*** Element info: {Using=xpath, value=/html/body/app-root/div/app-top-banner/div/nav/div/button})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Logout" classname="Test Cases/Test-Logout" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41)"/>
+         <system-out><![CDATA[2018-05-10 15:01:47 - [TEST_CASE][FAILED] - Test Cases/Test-Logout: Test Cases/Test-Logout FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41)
+
+2018-05-10 15:01:47 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41)
+
+2018-05-10 15:01:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-10 15:01:47 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41)]]></system-out>
+         <system-err><![CDATA[2018-05-10 15:01:47 - [TEST_CASE][FAILED] - Test Cases/Test-Logout: Test Cases/Test-Logout FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 15:00:51 - [TEST_SUITE][FAILED] - TestSuit-Logout: Test Cases/Test-Logout FAILED because (of) Unable to click on object 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Logout' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41
+*** Element info: {Using=xpath, value=/html/body/app-root/div/app-top-banner/div/nav/div/button})]]></system-out>
+      <system-err><![CDATA[2018-05-10 15:00:51 - [TEST_SUITE][FAILED] - TestSuit-Logout: Test Cases/Test-Logout FAILED because (of) Unable to click on object 'Object Repository/Objects-Login success/Page_ProjectBackend/button_Logout' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JOTRSDM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13896, moz:profile: C:\Users\amnesia\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8613aec4-0040-4c21-806a-dcdcd329bc41
+*** Element info: {Using=xpath, value=/html/body/app-root/div/app-top-banner/div/nav/div/button})]]></system-err>
+   </testsuite>
+</testsuites>
